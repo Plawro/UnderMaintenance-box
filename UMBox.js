@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Apply configurations
       document.getElementById('modal-title').textContent = modalConfig.title;
-      document.getElementById('modal-message').textContent = modalConfig.message;
+      document.getElementById('modal-message').innerHTML = modalConfig.message;
 
       const statusContainer = document.getElementById('status-container');
       modalConfig.statuses.forEach(item => {
