@@ -1,5 +1,4 @@
-
-  <style>
+<style>
     .modal-window {
       
       z-index: 999;
@@ -35,7 +34,7 @@
       text-align: center;
       top: 0;
       width: 70px;
-      text-decoration: none;
+      text-decoration: none;text-shadow: 1px 1px 1px black;
     }
     .modal-close:hover {
       color: black;
@@ -48,7 +47,7 @@
     .status-container {
       display: flex;
       justify-content: space-between;
-      margin-bottom: 1em;
+      margin-bottom: 0.6em;
     }
     .status {
       height: 1em;
@@ -62,7 +61,7 @@
       text-transform: uppercase;
       border: 1px solid;
       border-radius: 3px;
-      padding: 1px 2px;
+      padding: 1px 2px;text-shadow: 1px 1px 1px black;box-shadow: 1px 1px 1px black
     }
     .blue { color: #2791d9; border-color: #2791d9; }
     .green { color: #2ecc71; border-color: #2ecc71; }
@@ -72,15 +71,12 @@
     .gray { color: #36454F; border-color: #36454F;}
   </style>
 
-  <div id="open-modal" class="modal-window">
+  <div id="open-modal" class="modal-window open">
     <div>
       <a href="#" title="Close" class="modal-close">Close</a>
       <h1 id="modal-title"></h1>
       <div id="modal-message"></div>
       <br>
       <div id="status-container"></div>
-      <div><small>Check out my 👇</small></div>
-    <a href="https://github.com/plawro">Github :)</a>
   </div>
   </div>
-
